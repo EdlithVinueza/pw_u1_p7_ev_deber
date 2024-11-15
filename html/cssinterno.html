@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Interno</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header div {
+            display: flex;
+            justify-content: center;
+        }
+
+        header img {
+            height: 200px;
+            margin-right: 20px;
+        }
+
+        header h1 {
+            color: rgb(2, 0, 100);
+            font-size: 36px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: rgb(255, 136, 0);
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: black;
+        }
+
+        article {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        article h2 {
+            color: navy;
+            text-align: left;
+        }
+
+        article p {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: justify;
+        }
+
+        aside {
+            background-color: lightyellow;
+            padding: 10px;
+            margin: 20px;
+        }
+
+        aside h3 {
+            color: rgb(0, 0, 0);
+            text-align: center;
+            font-weight: bold;
+        }
+
+        aside ul {
+            list-style-type: square;
+        }
+
+        aside a {
+            color: rgb(0, 114, 143);
+        }
+
+        footer {
+            background-color: rgb(194, 134, 255);
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="../img/universidad-central-del-ecuador-logo-C712012CF0-seeklogo.com.png" alt="Logo">
+        </div>
+        <h1>Universidad Central del Ecuador</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Contactos</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h2>Nuestra Historia</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque alias iste aliquam saepe, exercitationem obcaecati aliquid repellendus optio dolorem temporibus, blanditiis placeat ducimus voluptates similique explicabo velit? Officia, ratione. Officiis unde nostrum sequi omnis aperiam? Error vitae adipisci nulla, commodi accusamus, soluta, hic earum blanditiis nam maxime libero optio?
+            </p>
+        </article>
+        <aside>
+            <h3>Facultades</h3>
+            <ul>
+                <li><a href="#">Arquitectura</a></li>
+                <li><a href="#">Medicina</a></li>
+                <li><a href="#">Ingenier&#237;a</a></li>
+            </ul>
+        </aside>
+    </section>
+    <footer>
+        <p>&copy; 2023 UCE</p>
+    </footer>
+</body>
+
+</html>
